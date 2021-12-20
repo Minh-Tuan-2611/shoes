@@ -1,0 +1,352 @@
+       .container_left {
+           /* position: relative;
+           left: 10%;
+           top: 9.5%; */
+           margin-top: 40px;
+       }
+       
+       .totalCost {
+           display: inline-block;
+       }
+       
+       .container_product {
+           margin-top: 5px;
+       }
+       
+       .totalCost p {
+           color: #333;
+       }
+       
+       .img_payment {
+           width: 70%;
+           display: block;
+           margin: 0 auto;
+           border-radius: 5px;
+       }
+       
+       .content_text {
+           margin-left: -20px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+       }
+       
+       .cost h6 {
+           height: 68px;
+           line-height: 68px;
+       }
+       
+       .content_text h6 {
+           font-weight: lighter;
+           font-style: italic;
+       }
+       /*  */
+       
+       .container_right {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin: 40px 0;
+       }
+       
+       .gbay {
+           width: 280px;
+           height: 40px;
+           background-color: #c4c4c4;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           cursor: pointer;
+           border-radius: 6px;
+       }
+       
+       .gbay i {
+           margin-top: 5px;
+           color: salmon;
+           font-size: 40px;
+           font-weight: bolder;
+       }
+       
+       .underline_gbay {
+           width: 280;
+           height: 30px;
+           margin-top: 20px;
+           border-top: 3px solid #333;
+       }
+       
+       .underline_gbay p {
+           font-size: 13px;
+           font-style: italic;
+       }
+       
+       .info_shopping,
+       .shopping_address,
+       .payment_detail {
+           width: 100%;
+           font-size: 13px;
+           font-weight: bold;
+       }
+       
+       .shopping_address {
+           margin-top: 30px;
+       }
+       
+       .payment_detail {
+           margin-top: 30px;
+       }
+       
+       .email {
+           width: 100%;
+           margin-top: 5px;
+           margin-bottom: 5px;
+           font-size: 11px;
+       }
+       
+       .email input {
+           width: 100%;
+       }
+       
+       .pay {
+           margin-top: 20px;
+           background-color: salmon;
+       }
+       
+       .pay_totalCost {
+           font-size: 13px;
+       }
+       
+       .finish_pay {
+           display: none;
+           width: 100vw;
+           height: 100vh;
+           background-color: #333;
+           position: fixed;
+           top: 0;
+           opacity: 0.7;
+       }
+       
+       .submit_box {
+           width: 300px;
+           height: 100px;
+           background-color: #fff;
+           position: absolute;
+           top: 40%;
+           left: 50%;
+           transform: translateX(-50%);
+       }
+       
+       .lose_submit {
+           position: absolute;
+           top: -1px;
+           right: 0;
+           font-size: 20px;
+       }
+       
+       .lose_submit:hover {
+           color: salmon;
+       }
+       
+       .submit_box p {
+           text-align: center;
+           width: 200px;
+           font-size: 13px;
+           position: absolute;
+           top: 20%;
+           left: 50%;
+           transform: translateX(-50%);
+       }
+       
+       .submit {
+           display: flex;
+           width: 200px;
+           height: 40px;
+           position: absolute;
+           left: 50%;
+           transform: translateX(-50%);
+           justify-content: center;
+           align-items: center;
+           top: 45%;
+       }
+       
+       .comform {
+           text-align: center;
+           line-height: 20px;
+           width: 50px;
+           height: 20px;
+           font-size: 11px;
+           cursor: pointer;
+       }
+       
+       .comform:hover {
+           opacity: 0.6;
+       }
+       
+       .yes {
+           background-color: #73BB01;
+           margin: 10px;
+       }
+       
+       .no {
+           background-color: #D60C0B;
+           margin: 10px;
+       }
+       
+       .warning_input {
+           display: none;
+       }
+       
+       .submit_no {
+           display: none;
+       }
+       
+       .submit_yes {
+           display: none;
+       }
+       
+       .fa-sad-tear {
+           font-size: 20px !important;
+       }
+       
+       .fa-laugh-beam {
+           font-size: 20px !important;
+       }
+       
+       .back_car {
+           background-color: #c4c4c4;
+           width: 120px;
+           border-radius: 4px;
+       }
+       
+       .back_car:hover {
+           background-color: salmon;
+       }
+       /* //////////reposive tablet-mobie////////// */
+       
+       @media (max-width: 1023px) {
+           .container_nav {
+               left: 0;
+               width: 100vw;
+           }
+           .container_nav_list {
+               display: none;
+               background: #000;
+               transform: 0.5s;
+           }
+           .nav_link p {
+               height: 30px;
+               font-size: 13px;
+               text-align: left;
+               line-height: 30px;
+               padding-left: 2px;
+           }
+           .suv_nav_list_item {
+               text-align: left;
+               font-size: 11px;
+               padding-left: 2px;
+           }
+           .nav_list_item:hover .suv_nav_list {
+               display: none;
+           }
+           .suv_menu_active {
+               display: block !important;
+           }
+           .menu_active {
+               display: block;
+           }
+           .fa-chevron-down {
+               display: inline-block;
+               margin-left: 5px;
+           }
+           /* logo */
+           .logo_header {
+               display: none;
+           }
+           /* silder */
+           .slick-prev,
+           .slick-next {
+               display: none !important;
+           }
+           .container_slider {
+               height: 400px;
+               position: relative;
+               z-index: 1;
+           }
+           .img_slider_item {
+               width: 100%;
+               height: 400px;
+               background-size: cover;
+               background-repeat: no-repeat;
+           }
+           #service_container {
+               display: none;
+           }
+           .finish_pay {
+               display: none;
+               width: 100vw;
+               height: 100vh;
+               background-color: #333;
+               position: fixed;
+               top: 0;
+               opacity: 0.96;
+           }
+       }
+       /* mobie */
+       
+       @media(max-width:730px) {
+           /* slider */
+           .container_slider {
+               height: 300px;
+               position: relative;
+               z-index: 1;
+           }
+           .img_slider_item {
+               width: 100%;
+               height: 300px;
+               background-size: cover;
+               background-repeat: no-repeat;
+               background-position: center;
+           }
+           .product_list_item_img {
+               width: 100%;
+               height: 200px;
+               background-repeat: no-repeat;
+               background-size: contain;
+               /* background-position: center; */
+           }
+           .container_payment {
+               height: 700px;
+               margin-top: 0;
+           }
+           .content_text {
+               margin-left: 4px;
+           }
+           #footer {
+               display: none;
+           }
+           .container_right {
+               height: auto;
+           }
+           .input_gmail,
+           .input_name,
+           .input_address,
+           .input_number_visa,
+           .input_date .input_CVC {
+               width: 200px;
+           }
+           .finish_pay {
+               display: none;
+               width: 100vw;
+               height: 100vh;
+               background-color: #333;
+               position: fixed;
+               top: 0;
+               opacity: 0.96;
+           }
+           .container_product {
+               height: 50px;
+               width: 100%;
+           }
+           .pay_shop {
+               margin-left: 20px;
+           }
+       }
